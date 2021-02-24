@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1000px){
+    .abs{
+        transform: none;
+    }
+    .house-title{
+        padding: 5px 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .Projects-photos{
+        grid-template-columns: auto auto;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .header-li{
+        padding: 8px 8px;
+    }
+    .team-container{
+        grid-template-columns: auto auto;
+    }
+    header nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    header nav{
+        display: none;
+    }
+    #mobile-btn{
+        visibility: visible;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .Projects-photos{
+        grid-template-columns: auto;
+    }
+
+    .team-container{
+        grid-template-columns: auto;
+    }
+}
